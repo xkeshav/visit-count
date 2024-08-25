@@ -2,8 +2,7 @@ name: say-my-name
 run-name: running npm package which display the data
 on:
   push:
-    branches:
-      - develop
+    branches: ['main']
 jobs:
   markdown-lint:
     runs-on: ubuntu-latest
