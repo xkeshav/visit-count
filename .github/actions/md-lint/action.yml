@@ -1,0 +1,8 @@
+runs:
+using: "composite"
+run: |
+  npx markdownlint-cli '**/*.md' \
+  --config './github/actions/.markdownlint.json' \
+  --ignore '.github/CONTRIBUTING.md' \
+  --ignore '.github/CODE_OF_CONDUCT.md'\
+  --ignore 'CHANGELOG.md'
