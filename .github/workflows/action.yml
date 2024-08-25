@@ -1,5 +1,5 @@
 name: say-my-name
-run-name: running npm package which display the data
+run-name: running npm package which display my information
 on:
   push:
     branches: ['main']
